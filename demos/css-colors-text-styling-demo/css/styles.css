@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph{
+    color: blue;
+    background-color: orange;
+    font-style: italic;
+}
+#second-paragraph{
+    color: red;
+    background-color: pink;
+    font-size: x-small;
+}
+#third-paragraph{
+    color: rgb(23, 125, 138);
+    background-color: rgb(192, 108, 141);
+    text-align: center;
+    font-family: fantasy;
+    font-weight:bold;
+}
+#bold-paragraph{
+    font-weight:bold;
+    background-color: darkblue;
+    text-decoration:line-through;
+}
