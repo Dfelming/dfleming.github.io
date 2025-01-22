@@ -12,11 +12,13 @@ body {
     background-color: orange;
     font-style: italic;
 }
+
 #second-paragraph{
     color: red;
     background-color: pink;
     font-size: x-small;
 }
+
 #third-paragraph{
     color: rgb(23, 125, 138);
     background-color: rgb(192, 108, 141);
@@ -24,8 +26,33 @@ body {
     font-family: fantasy;
     font-weight:bold;
 }
+
 #bold-paragraph{
     font-weight:bold;
     background-color: darkblue;
     text-decoration:line-through;
+}
+
+#span1{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#span2{
+    color: magenta;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3{
+    color: blueviolet;
+    font-size: 24px;
+    background-color: black;
+}
+
+#span4{
+    text-align: center;
+    text-decoration: overline;
+    background-color: brown;
 }
