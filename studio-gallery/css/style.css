@@ -1,0 +1,40 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.white-cat{
+    width:95px;
+    outline: 5px solid rgb(66, 49, 24);
+    border-radius: 60px;
+    margin-top: 50px;
+}
+
+.couch {
+    width: 400px;
+    margin-right: 100px;
+}
+
+.winter-cat {
+    width: 150px;
+    outline: 5px solid burlywood;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.sleepy-kitty{
+    width: 150px;
+    margin-top: 50px;
+    outline: 5px solid black;
+}
+
+.cat-wall{
+    text-align: center;
+    font-size: x-large;
+    color: rebeccapurple;
+    margin-right: 15px;
+}
