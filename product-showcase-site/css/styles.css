@@ -6,3 +6,61 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#container-d4{
+    background-color: rgb(255, 96, 96);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-d4 h2{
+    background-color: white;
+    text-align: center;
+}
+
+.pbjmam{
+    width: 500px;
+    
+}
+
+.p1{
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.p2{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.span1{
+    color: rgb(246, 196, 104);
+}
+
+.span2{
+    color: purple;
+}
+.purplemam-img{
+    width: 600px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mtm .purplemam .pm1{
+    color: purple;
+    font-size: xx-large;
+}
+
+.bluemam-img{
+    width: 600px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mtm .bluemam .bm1{
+    color: blue;
+    font-size: xx-large;
+}
