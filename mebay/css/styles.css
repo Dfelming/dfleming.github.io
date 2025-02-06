@@ -16,8 +16,9 @@ body {
 }
 
 #logo{
-    background-color: lightblue;
     grid-area:header;
+    text-align: center;
+    border-bottom: 1px solid lightslategray;
 }
 
 #logo a{
@@ -42,39 +43,104 @@ body {
 
 #photos{
     grid-area:sidebar;
-    border-right: 3px solid lightslategray;
+    border-right: 1px solid lightslategray;
     align-items: center;
 }
 
 #photos img{
     border-radius: 30px;
-    border: 2px solid black;
+    border: 1px solid black;
+    margin-top: 5px;
 }
 
 #main{
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(242, 242, 242);
     grid-area:main;
+    border-right: 1px solid lightslategray;
+}
+
+#main img{
+    border-radius: 60px;
 }
 
 #buy{
-    background-color: lightgreen;
     grid-area:buy;
 }
 
-#buy img{
+.profileinfo{
+    color: rgb(173, 172, 172);
+    font-size: x-small;
+}
+
+.user-profile .profileimg img{
     border-radius: 60px;
     border: 1px solid lightgray;
 }
 
-#buy #buttons ul a .none{
-    list-style: none;
-    color: blue;
-    border: blue;
-    border-radius: 60px;
-
+.user-profile .profileinfo a{
+    color: black;
+    font-size: small;
 }
 
-#buy #buttons ul a .buy-now{
-    list-style: none;
-    color: white;
+.user-profile a.bottom{
+    color: black;
+    font-size: xx-small;
+}
+
+#buttons ul .buy-now a{
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(58, 58, 255);
+    border-radius: 60px;
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+#buttons ul .buy-now a:hover{
+    background-color: rgb(20, 20, 217);
+    color: #eeeeee;
+    border-radius: 60px;
+}
+
+#buttons ul .none a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(58, 58, 255);
+    border: 2px solid  rgb(58, 58, 255);
+    border-radius: 60px;
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+#buttons ul .none a:hover{
+    background-color: #ececec;
+    border: 2px solid  rgb(20, 20, 217);
+    color: rgb(20, 20, 217);
+    border-radius: 60px;
+}
+
+#quantity span{
+    font-size: medium;
+    color: black;
+    background-color: rgb(241, 236, 236);
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 12px;
+}
+
+#item-popular{
+    font-size: x-small;
+}
+
+#item-popular b{
+    font-size: medium;
+}
+
+#item-popular i{
+    font-size: x-large;
 }
