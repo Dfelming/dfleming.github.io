@@ -1,0 +1,251 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3{
+    min-width: 300px;
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+#pokemon-card-1{
+    background: radial-gradient(at bottom right, #7fff00, #8fbc8f, #7fff00);
+    border: 10px solid darkolivegreen;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#pokemon-card-1 img{
+    width: 300px;
+    border: 5px solid darkolivegreen;
+}
+
+#pokemon-card-1 .details{
+    background: radial-gradient(at center, #7fff00, #51bb51);
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pokemon-card-1 .attack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#pokemon-card-1 .description{
+    width: 100%;
+    font-size: small;
+    border-bottom: 2px solid black;
+}
+
+#pokemon-card-1 .description .bold{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#pokemon-card-1 .power{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#pokemon-card-1 .pokemon-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pokemon-card-1 .data{
+    border: 2px solid darkolivegreen;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#pokemon-card-2{
+    background: radial-gradient(at bottom right, #a1a1f6, #663399, #a1a1f6);
+    border: 10px solid darkslateblue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#pokemon-card-2 img{
+    width: 300px;
+    border: 5px solid darkslateblue;
+}
+
+#pokemon-card-2 .details{
+    background: radial-gradient(at center, #a1a1f6, #663399);
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pokemon-card-2 .attack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#pokemon-card-2 .description{
+    width: 100%;
+    font-size: small;
+    border-bottom: 2px solid black;
+}
+
+#pokemon-card-2 .description .bold{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#pokemon-card-2 .power{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#pokemon-card-2 .pokemon-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pokemon-card-2 .data{
+    border: 2px solid darkslateblue;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#pokemon-card-3{
+    background: radial-gradient(at bottom right, #ff0000, #800000, #ff0000);
+    border: 10px solid darkred;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#pokemon-card-3 img{
+    width: 300px;
+    border: 5px solid darkred;
+}
+
+#pokemon-card-3 .details{
+    background: radial-gradient(at center, #ff0000, #800000);
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pokemon-card-3 .attack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#pokemon-card-3 .description{
+    width: 100%;
+    font-size: small;
+    border-bottom: 2px solid black;
+}
+
+#pokemon-card-3 .description .bold{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#pokemon-card-3 .power{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#pokemon-card-3 .pokemon-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pokemon-card-3 .data{
+    border: 2px solid darkred;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#pokemon-card-4{
+    background: radial-gradient(at bottom right, #e0ffff, #87cefa, #e0ffff);
+    border: 10px solid lightskyblue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#pokemon-card-4 img{
+    width: 300px;
+    border: 5px solid lightskyblue;
+}
+
+#pokemon-card-4 .details{
+    background: radial-gradient(at center, #e0ffff, #87cefa);
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pokemon-card-4 .attack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#pokemon-card-4 .description{
+    width: 100%;
+    font-size: small;
+    border-bottom: 2px solid black;
+}
+
+#pokemon-card-4 .description .bold{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#pokemon-card-4 .power{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#pokemon-card-4 .pokemon-header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pokemon-card-4 .data{
+    border: 2px solid lightskyblue;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
