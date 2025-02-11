@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1{
+    background-image: url(../images/stars.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#hero-1 h2{
+    font-size: 40px;
+    color: white;
+}
+
+#hero-1 h4{
+    font-size: 20px;
+    color: white;
+}
+
+#hero-1 a{font-size: 14px;
+    display: inline-block;
+    background-color: #893173;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+#hero-1 a:hover{
+    background-color: #a85693;
+    color: white;
+}
+
+#hero-2{
+    background-image: url(../images/fog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-2 .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+#hero-2 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+}
+
+#hero-3{
+    background-image: url(../images/ones-zeros.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+#hero-3 h2{
+    font-size: 72px;
+    margin-bottom: 36px;
+    color: white;
+}
+
+#hero-3 h4{
+    font-size: 24px;
+    margin: 0px;
+    color: white;
+}
+
+#hero-3 p{
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-right: 24px;
+    font-weight: bolder;
+}
