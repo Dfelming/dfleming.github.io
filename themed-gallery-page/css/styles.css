@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout{
+    background-image: url(../images/paper.jpg);
+    background-size: cover;
+    max-width: 800px;
+    margin: 48px;
+    text-align: center;
+}
+
+.dnd-character-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.dnd-character-gallery img{
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+    object-fit: cover;
+}
