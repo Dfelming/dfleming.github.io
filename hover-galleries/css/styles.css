@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#cards-container1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#mddc{
+    background-image: url(../images/mddc-background-paper.png);
+    background-size: cover;
+}
+
+#mddc h1{
+    text-align: center;
+}
+
+.cg1-card-content{
+    grid-template-columns: 20px 20px;
+    grid-template-areas:
+      "img name";
+}
+
+.cg1-card-content a{
+    text-decoration: none;
+    color: burlywood;
+    background-color: wheat;
+    border: 3px solid burlywood;
+    border-radius: 20px;
+    padding: 20px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+
+.cg1-card-content a:hover{
+    color: wheat;
+    background-color: burlywood;
+    border: 3px solid burlywood;
+}
+
+.cg1-card-content #ns-name{
+    font-weight: bolder;
+    text-align: center;
+    color: #757d9f;
+    font-size: x-large;
+}
+
+.cg1-card-content .race{
+    font-weight: bold;
+}
+
+.cg1-card-content .subclass{
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+    font-size: small;
+}
+
+.cg1-card{
+    flex: 300px;
+    border: 3px solid rgb(51, 68, 77);
+    margin: 24px;
+    padding: 14px;
+    text-align: center;
+    height: 300px;
+    width: 1fr;
+}
+
+#cg1-card1{
+    position: relative;
+    background-image: url(../images/nightshade.png);
+    background-size: cover;
+    background-position: center center;
+    background-size: 300px;
+}
+
+#cg1-card1 .cg1-card-content{
+    position: absolute;
+    background-color: #f1e9d6;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s
+        visibility 0.5s
+        transform 0.5s;
+}
+#cg1-card1:hover .cg1-card-content{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#sidekick{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "image text" ;
+    margin-bottom: 20px;
+}
+
+#sidekick img{
+    grid-area: image;
+    margin-left: 100px;
+}
+
+#sidekick .sidekick-info{
+    grid-area: text;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+#sidekick #r-name{
+    font-weight: bolder;
+    text-align: center;
+    color: #73ad94;
+    font-size: x-large;
+}
+
+#cg1-card2{
+    position: relative;
+    background-image: url(../images/river.png);
+    background-size: cover;
+    background-position: center center;
+    background-size: 370px;
+}
+
+#cg1-card2 .cg1-card-content{
+    position: absolute;
+    background-color: #f1e9d6;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s
+        visibility 0.5s
+        transform 0.5s;
+}
+#cg1-card2:hover .cg1-card-content{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+
+.cg1-card-content #r-name{
+    font-weight: bolder;
+    text-align: center;
+    color: #5f7481;
+    font-size: x-large;
+}
+
+.cg1-card-content .r-race{
+    font-weight: bold;
+}
+
+.cg1-card-content .r-subclass{
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+    font-size: small;
+}
+
+#sidekick #p-name{
+    font-weight: bolder;
+    text-align: center;
+    color: #55835d;
+    font-size: x-large;
+}
