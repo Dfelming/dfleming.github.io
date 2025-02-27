@@ -135,3 +135,48 @@ body {
 #footer a:hover{
     background: linear-gradient(to top, #d4a373, #f1dabf, #ede0d4);
 }
+
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    border: 3px solid #4b2a15;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h2{
+    font-size: xx-large;
+    margin-top: 0px;
+}
+
+.food-item{
+    margin-bottom: 20px;
+}
+
+.food-item h4{
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.food-item p{
+    margin-top: 9px;
+}
+
+.item{
+    font-size: larger;
+    margin-right: 60px;
+}
+
+.price{
+    font-size: small;
+    margin-left: 100px;
+    text-align: right;
+}
+
+.sub-price{
+    font-size: x-small;
+}
