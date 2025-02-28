@@ -76,7 +76,7 @@ body {
 }
 
 #hero-1 {
-    background-image: url("../images/orange-wildflowers.jpg");
+    background-image: url("../images/hero.jfif");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -88,6 +88,7 @@ body {
     position: absolute;
     top: 10%;
     left: 15%;
+    color: #c49b75;
 }
 
 #hero-1 h2 {
@@ -146,7 +147,9 @@ body {
     padding: 36px;
     text-align: center;
     margin: 36px;
+    max-height: 500px;
 }
+
 
 .card h2{
     font-size: xx-large;
@@ -179,4 +182,133 @@ body {
 
 .sub-price{
     font-size: x-small;
+}
+
+/*Tablet screen*/
+@media screen and (max-width: 750px) and (min-width: 450px) {
+    body{
+
+    }
+
+    #navbar{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #navbar a{
+        padding: 5px;
+    }
+
+    .dropdown-menu a{
+        width: 50%;
+        min-width: 100px;
+    }
+
+    #hero-1 h2 {
+        font-size: 27px;
+        margin-bottom: 26px;
+    }
+
+    #hero-1 h4{
+        font-size: 14px;
+    }
+
+    #hero-1 a{
+        font-size: 10px;
+        padding: 14px;
+        margin-top: 16px;
+        margin-right: 14px;
+    }
+    
+    #footer{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #footer a{
+        padding: 5px;
+    }
+
+    #menu{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .food-item p{
+        font-size: 10px;
+    }
+
+    .item{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .price{
+        font-size: 10px;
+        margin-left: 25px;
+    }
+}
+
+/*Phone Screen*/
+@media screen and (max-width: 450px) {
+    body{
+
+    } 
+
+    #navbar{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #navbar a{
+        padding: 5px;
+    }
+
+    .dropdown-menu a{
+        width: 50%;
+        min-width: 100px;
+    }
+
+    #hero-1 h2 {
+        font-size: 27px;
+        margin-bottom: 26px;
+    }
+
+    #hero-1 h4{
+        font-size: 14px;
+    }
+
+    #hero-1 a{
+        font-size: 10px;
+        padding: 14px;
+        margin-top: 16px;
+        margin-right: 14px;
+    }
+    
+    #footer{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #footer a{
+        padding: 5px;
+    }
+
+    #menu{
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .food-item p{
+        font-size: 10px;
+    }
+
+    .item{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .price{
+        font-size: 10px;
+        margin-left: 25px;
+    }
 }
