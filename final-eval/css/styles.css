@@ -6,3 +6,108 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero {
+    background-image: url("../images/football\ background.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 10px solid #105710;
+}
+
+#main-content{
+    text-align: center;
+    color: white;
+    margin: 60px;
+}
+
+#main-content h2{
+    font-size: 40px;
+}
+
+#main-content h4{
+    font-size: large;
+}
+
+#main-content a{
+    font-size: 14px;
+    display: inline-block;
+    background-color: #7d4c26;
+    color: white;
+    border: 3px solid #72411b;
+    border-radius: 40px;
+    box-shadow: 4px 4px 12px #073207;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+#main-content a:hover{
+    background-color: transparent;
+    border: 3px solid #7d4c26;
+    color: #72411b;
+}
+
+#sidebar-content img{
+    width: 500px;
+    margin: 60px;
+}
+
+#webpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "nav nav"
+        "bcinfo bclogo"
+        "tclogo tcinfo ";
+}
+
+#navbar{
+    grid-area: nav;
+}
+
+#sidebar-content-2 #bc-lions-info{
+    grid-area: bcinfo;
+}
+
+#sidebar-content-2 #bc-lions-logo{
+    grid-area: bclogo;
+}
+
+#main-content-2 #tiger-cats-logo{
+    grid-area: tclogo;
+}
+
+#main-content-2 #tiger-cats-info{
+    grid-area: tcinfo;
+}
+
+#webpage img{
+    width: 500px;
+    height: 500px;
+}
+
+#webpage #navbar{
+    background-image: url(../images/superbowl.jfif);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 50px;
+}
+
+#navbar h1{
+    font-size: 100px;    
+    text-align: center;
+    color: white;
+}
+
+#sidebar-content-2{}
