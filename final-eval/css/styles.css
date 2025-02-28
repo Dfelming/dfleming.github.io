@@ -67,28 +67,28 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "nav nav"
-        "bcinfo bclogo"
-        "tclogo tcinfo ";
+        "bclions bclions"
+        "tigercats tigercats";
 }
 
 #navbar{
     grid-area: nav;
 }
 
-#sidebar-content-2 #bc-lions-info{
-    grid-area: bcinfo;
+#sidebar-content-2{
+    grid-area: bclions;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "info logo";
 }
 
-#sidebar-content-2 #bc-lions-logo{
-    grid-area: bclogo;
-}
-
-#main-content-2 #tiger-cats-logo{
-    grid-area: tclogo;
-}
-
-#main-content-2 #tiger-cats-info{
-    grid-area: tcinfo;
+#main-content-2{
+    grid-area: tigercats;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "logo info";
 }
 
 #webpage img{
